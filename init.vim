@@ -71,6 +71,17 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'lewis6991/gitsigns.nvim'
 
+" LSP
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
+
+" Autocompletion
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'onsails/lspkind-nvim'
+
 call plug#end()
 
 " declare your color scheme
