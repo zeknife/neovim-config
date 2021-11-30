@@ -17,6 +17,7 @@ set shiftwidth=4
 
 " adds line numbers
 set number
+set relativenumber
 
 " columns used for the line number
 set numberwidth=4
@@ -86,7 +87,12 @@ Plug 'hrsh7th/nvim-cmp'
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
+
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 call plug#end()
+
+" No idea what this does but hrsh7th says to do it
+set completeopt=menu,menuone,noselect
 
 " declare your color scheme
 colorscheme everforest
